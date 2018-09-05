@@ -1,0 +1,65 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+/* Global */
+body
+{
+  color: rgba(255,255,255);
+  font-family: 'Ubuntu', sans-serif;
+  background-color: coral;
+  margin: 0;
+  padding: 0;
+}
+
+a
+{
+  color: white;
+  text-decoration-line: none;
+  font-size: 50px;
+}
+
+/* Page */
+.content
+{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.landing
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Brand */
+.branding
+{
+  position: relative;
+}
+
+#first, #last
+{
+  font-size: 200px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+#last
+{
+  margin-top: -50px;
+}
+
+/* Links */
+.links
+{
+  margin: 10px;
+}
+
+#github:hover, #instagram:hover, #linkedin:hover
+{
+  text-decoration-line: underline;
+}
